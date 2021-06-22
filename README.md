@@ -1,7 +1,7 @@
 # WCA-SAT
 🌊 Window Cleaning Assistant (WCA) This was an overly ambitious school project for my Software Development class in Year 12 (2020). A SAT is a School Assessed Task
 
-At the moment I am continuing to work on this project in a Private repo, but I thought I would make this public so other students can learn a thing or two!
+At the moment I am continuing to work on this project in a private repo, but I thought I would make this public so other students can learn a thing or two! The currently private project contains an IOS App, Apple watch app, client / server setup with database and a Desktop application to manage it all. I hope to eventually use this project in production in my own Window Cleaning business.
 
 Keep in mind this code was written while I was still learning programming fundamentals, so it's pretty terrible...
 Feel free to contact me if you need any help with your VCE Software Development SAT!
