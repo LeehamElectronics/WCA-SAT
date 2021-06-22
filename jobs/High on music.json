@@ -1,0 +1,28 @@
+{
+ "job": {
+  "job_name": "High On Music",
+  "run": "Run: Country",
+  "job_name_abrv": "H on M",
+  "client_name": "Jack Daniels",
+  "other_name": "bob (the builder)",
+  "contact_phone": "1800 420",
+  "contact_email": "bigboii@gmail.com",
+  "linked_jobs": "Toy World",
+  "preferred_contact": "Email",
+  "location": "kangaroo flat",
+  "general_notes": "Picked up job from whats his face",
+  "number_of_cleans": 1
+ },
+ "clean_0": {
+  "clean_name": "Front windows",
+  "tools": "Bucket",
+  "price": "20",
+  "clean_schedule": "1/08/2020",
+  "clean_schedule_repeat": "Weekly",
+  "clean_description": "Clean front windows only and rag sills",
+  "payment_method": "Payment Method: Cash",
+  "receipt": "Receipt: Yes",
+  "time_eta": "30",
+  "time_type_eta": "Minutes"
+ }
+}

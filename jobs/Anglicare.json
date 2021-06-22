@@ -1,0 +1,40 @@
+{
+ "job": {
+  "job_name": "Anglicare",
+  "run": "Run: Country",
+  "job_name_abrv": "Anglicare",
+  "client_name": "Angie",
+  "other_name": "Bill",
+  "contact_phone": "1300 6565",
+  "contact_email": "anglicareadmins@gmail.com",
+  "linked_jobs": "somewhere",
+  "preferred_contact": "Phone",
+  "location": "CBD Bendigo",
+  "general_notes": "Dont do when sunny",
+  "number_of_cleans": 2
+ },
+ "clean_0": {
+  "clean_name": "Up stairs",
+  "tools": "Pole, ladder, and bucket",
+  "price": "120",
+  "clean_schedule": "1/08/2020",
+  "clean_schedule_repeat": "Every Month",
+  "clean_description": "Clean top windows around balcony",
+  "payment_method": "Payment Method: Online",
+  "receipt": "Receipt: Yes",
+  "time_eta": "1",
+  "time_type_eta": "Hours"
+ },
+ "clean_1": {
+  "clean_name": "Bottom only",
+  "tools": "bucket and pole",
+  "price": "100",
+  "clean_schedule": "1/08/2020",
+  "clean_schedule_repeat": "Every 2 Months",
+  "clean_description": "Clean bottom windows only ",
+  "payment_method": "Payment Method: Online",
+  "receipt": "Receipt: Yes",
+  "time_eta": "45",
+  "time_type_eta": "Minutes"
+ }
+}

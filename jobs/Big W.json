@@ -1,0 +1,64 @@
+{
+ "job": {
+  "job_name": "Big W",
+  "run": "Run: Bendigo",
+  "job_name_abrv": "Big W",
+  "client_name": "John",
+  "other_name": "Jeff",
+  "contact_phone": "0423735444",
+  "contact_email": "testtt@gmail.com",
+  "linked_jobs": "Toy World",
+  "preferred_contact": "Email",
+  "location": "77 view street",
+  "general_notes": "Good Job clean well",
+  "number_of_cleans": 4
+ },
+ "clean_0": {
+  "clean_name": "Tops ONLY",
+  "tools": "Extension Pole ",
+  "price": "$44",
+  "clean_schedule": "1/08/2020",
+  "clean_schedule_repeat": "Every 3 Weeks",
+  "clean_description": "Clean top windows only!",
+  "payment_method": "Payment Method: Online",
+  "receipt": "Receipt: No",
+  "time_eta": "44",
+  "time_type_eta": "Minutes"
+ },
+ "clean_1": {
+  "clean_name": "Bottom Windows",
+  "tools": "Lots of Water",
+  "price": "$30",
+  "clean_schedule": "1/08/2020",
+  "clean_schedule_repeat": "Weekly",
+  "clean_description": "Bottom windows only good scrub",
+  "payment_method": "Payment Method: Other",
+  "receipt": "Receipt: Yes",
+  "time_eta": "30",
+  "time_type_eta": "Minutes"
+ },
+ "clean_2": {
+  "clean_name": "Around corner",
+  "tools": "Extension Pole and Bucket",
+  "price": "$44",
+  "clean_schedule": "1/08/2020",
+  "clean_schedule_repeat": "Every 3 Weeks",
+  "clean_description": "Clean window sills",
+  "payment_method": "Payment Method: Cheque",
+  "receipt": "Receipt: No",
+  "time_eta": "44",
+  "time_type_eta": "Minutes"
+ },
+ "clean_3": {
+  "clean_name": "Test 100",
+  "tools": "Jeff",
+  "price": "6969",
+  "clean_schedule": "1/08/2020",
+  "clean_schedule_repeat": "Every 3 Weeks",
+  "clean_description": "get good clean tops only",
+  "payment_method": "Payment Method: Online",
+  "receipt": "Receipt: No",
+  "time_eta": "55",
+  "time_type_eta": "Minutes"
+ }
+}

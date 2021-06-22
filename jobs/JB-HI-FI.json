@@ -1,0 +1,28 @@
+{
+ "job": {
+  "job_name": "JB-HI-FI",
+  "run": "Run: Bendigo",
+  "job_name_abrv": "JB",
+  "client_name": "Alex",
+  "other_name": "Oliver",
+  "contact_phone": "045687545",
+  "contact_email": "Alexharh@jbhifi.com.au",
+  "linked_jobs": "Centrecom",
+  "preferred_contact": "Email",
+  "location": "144 Mitchell street",
+  "general_notes": "Picked up job from business card drops",
+  "number_of_cleans": 1
+ },
+ "clean_0": {
+  "clean_name": "All windows",
+  "tools": "Usual",
+  "price": "60",
+  "clean_schedule": "1/08/2020",
+  "clean_schedule_repeat": "Every 2 Months",
+  "clean_description": "Clean all windows in and out",
+  "payment_method": "Payment Method: Online",
+  "receipt": "Receipt: No",
+  "time_eta": "40",
+  "time_type_eta": "Minutes"
+ }
+}

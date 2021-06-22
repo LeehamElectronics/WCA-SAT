@@ -1,0 +1,28 @@
+{
+ "job": {
+  "job_name": "Centercom",
+  "run": "Run: Country",
+  "job_name_abrv": "centrecm",
+  "client_name": "jeff",
+  "other_name": "john",
+  "contact_phone": "54432225",
+  "contact_email": "testemail@emails.com",
+  "linked_jobs": "",
+  "preferred_contact": "Other",
+  "location": "cbd",
+  "general_notes": "need to ask about back windows",
+  "number_of_cleans": 1
+ },
+ "clean_0": {
+  "clean_name": "lowers",
+  "tools": "sdfsdf",
+  "price": "sdfsdf",
+  "clean_schedule": "1/08/2020",
+  "clean_schedule_repeat": "Every 2nd Week",
+  "clean_description": "trrt",
+  "payment_method": "Payment Method: Online",
+  "receipt": "Receipt: Yes",
+  "time_eta": "54",
+  "time_type_eta": "Days"
+ }
+}

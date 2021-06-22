@@ -1,0 +1,20 @@
+{
+ "public": {
+  "ip": "201.127.10.44",
+  "port": 443,
+  "user": "admin",
+  "password": "srBf46^jkA"
+ },
+ "internal": {
+  "ip": "192.168.1.2",
+  "port": "1883",
+  "user": "random_username",
+  "password": "srBf46^jkA"
+ },
+ "custom": {
+  "ip": "10.44.20.1",
+  "port": 132,
+  "user": "admin",
+  "password": "srBf46^jkA"
+ }
+}

@@ -1,0 +1,72 @@
+WRITTEN REPORT BY LIAM PRICE:
+
+During the development of the Window Cleaning Assistant software I made several changes to the design layout and the
+scope of what the final software would include due to time constraints. While working I decided to implement a login
+window into the application so that the user is prompted with a login before the actual program loads. This was due to
+the requirement of security mentioned in the SRS document. This login window allows the user to secure their data so
+only they can access and use the program, and it also allows the user to specify if they would like to use the program
+in offline or online mode. I made this change due to the schools network policy, I was not able to make the program
+function with mqtt access at school, so to resolve this issue I thought creatively and came up with the idea of giving
+the user the ability to choose how they would like the program to open, in either offline or online mode.
+
+Due to the complexity of the data structures the user may become confused as to what changes they appending, so each
+time the user presses save on a job they are prompted with a window of what changes will be made, this feature can also
+be disabled by user if they want.
+For similar reasons, I found that the end user may worry or have anxiety about making changes in the main window because
+of the amount of entries there are, so I added a "cancel" button next to the save button so users can easily cancel
+their changes, and the window will automatically display the original entries in the window for the user. I added this
+to the design to ultimately give the user a better experience.
+
+According to client they also required an entry for extra tools required for each job so I added that for them.
+
+Since I decided to create a login window for security and simplicity, I figured the user may also wish to "log out"
+like other popular applications do, I found this would be an important feature to add because it also allows the user
+to edit their credentials and server network login details without the hassle of closing and opening the program. I
+decided that a "log out" button would be convenient and efficient for the end user so I implemented this in my design
+at the end of July 2020.
+
+I found it difficult to remember what purpose was of some widgets when implementing the design into the GUI, the reason
+is because although the design layout in the mock-up is clear as to what the entry's are for, when actually using the
+program there is no way of knowing what an entries purpose is when the field is blank. To fix this issue I decided to
+add a small Label above each Entry indicating what the purpose of the field is. This solved the issue and makes the GUI
+much more user friendly.
+
+When I completed the GUI I realised that a search button was missing so I have added this to the design. I also used my
+creative thinking by turning the "history" scroll box and label into a more multi purpose list box. I figured that the
+user may want to simply view ALL jobs depending on the sort values applied, rather than searching. So now the user can
+use the history list box as a means of scrolling through all the jobs that are relevant to the sort values entered. This
+is also extremely interactive for the user because they can also directly double click on the job in the list box and
+the job is displayed next to it in the main window.
+
+Data Structure Design Change:
+This was very important, I found that storing 100s of jobs, each with a varied amount of "cleans" in each would be very
+difficult to store, read, sort, and search from a text file. To combat this I decided to use JSON to store all my data
+since it is much more effective and professional compared to a text file. I also decided to store each job in its own
+JSON file. As a result I can not store all the data within the program in a simple "list of dictionaries" for each job,
+which is what we normally do. Instead I decided to store the data in a dictionary of dictionaries.
+
+Whilst writing the program on the 10/08/2020, I decided to add two try methods with exceptions inside the
+"read jobs function". I did this because sometimes I noticed there were JSON syntax errors in the database because I
+have been manually modifying files. By having these try methods I can easily tell if I accidentally left a syntax
+error in the database when the application starts up.
+
+Search Methods:
+When I created the Search Menu I found that more was needed. What if the user wants to search for a certain workers
+name because he can not remember the shop / job name. There are many more examples of this, to resolve this issue I
+added a extra "Search In" option menu to allow the user to choose between many different options as to where in the
+database they would like to search exactly. This also includes an "everywhere" option to simply search in all fields of
+all jobs in the database.
+
+Data Security:
+Although I have added a login window, any person with technical knowledge would be capable of getting the password
+from the code and using that to sign in, or they could simply copy all of the JSON files and read them which is a
+breach of privacy. Using creative thinking I decided that the best way to combat this security flaw would be to get the
+password entered from the user and send it to the MQTT server. Then the MQTT server would send back a hashing code that
+the program would use to login and decrypt the JSON files if the password was correct. I would have implemented this but
+I did not have enough time to do so.
+
+FINAL UPLOAD:
+I got most parts of the software working, however not all of the "Sort" functionality work. I have highlighted in blue
+what parts of the GUI are not fully functional. I have included data validation in many ways such as in the Search menu
+and by prompting the user with dialogue boxes if they do certain things like press the "New Clean" button without first
+having a "Job" Selected. 

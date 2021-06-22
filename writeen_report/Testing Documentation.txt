@@ -1,0 +1,3 @@
+As I developed the program I tested all aspects of the program extensively.
+I did not have the time to create a massive testing table but I did include a screen shot of all the commits for my program,
+which displays when I tested things, found issues, and fixed them by pushing those commits.

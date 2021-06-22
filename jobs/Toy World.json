@@ -1,0 +1,76 @@
+{
+ "job": {
+  "job_name": "Toy World",
+  "run": "Run: Country",
+  "job_name_abrv": "TWorld",
+  "client_name": "Bill",
+  "other_name": "Bob",
+  "contact_phone": "1800 696977",
+  "contact_email": "bobbuilder@gmail.com",
+  "linked_jobs": "OpenCafe",
+  "preferred_contact": "Phone",
+  "location": "69 albert street woodend",
+  "general_notes": "Got job from Jill in 2018",
+  "number_of_cleans": 5
+ },
+ "clean_0": {
+  "clean_name": "Top building",
+  "tools": "pole",
+  "price": "$44",
+  "clean_schedule": "1/08/2020",
+  "clean_schedule_repeat": "Every 3 Weeks",
+  "clean_description": "Clean top windows only!",
+  "payment_method": "Payment Method: Online",
+  "receipt": "Receipt: No",
+  "time_eta": "20",
+  "time_type_eta": "Minutes"
+ },
+ "clean_1": {
+  "clean_name": "Back of shop",
+  "tools": "Steel wool",
+  "price": "70",
+  "clean_schedule": "1/08/2020",
+  "clean_schedule_repeat": "Every 6 Months",
+  "clean_description": "Clean windows at the back of toy world",
+  "payment_method": "Payment Method: Cheque",
+  "receipt": "Receipt: Yes",
+  "time_eta": "2",
+  "time_type_eta": "Hours"
+ },
+ "clean_2": {
+  "clean_name": "Inside only",
+  "tools": "Lots of rags",
+  "price": "$60",
+  "clean_schedule": "1/08/2020",
+  "clean_schedule_repeat": "Every Month",
+  "clean_description": "clean insde of glass only, dont break pots",
+  "payment_method": "Payment Method: Cheque",
+  "receipt": "Receipt: Yes",
+  "time_eta": "45",
+  "time_type_eta": "Minutes"
+ },
+ "clean_3": {
+  "clean_name": "Outside only",
+  "tools": "Soap",
+  "price": "50",
+  "clean_schedule": "1/08/2020",
+  "clean_schedule_repeat": "Every 4 Months",
+  "clean_description": "Clean outside glass and cobwebs",
+  "payment_method": "Payment Method: Cash",
+  "receipt": "Receipt: No",
+  "time_eta": "20",
+  "time_type_eta": "Minutes"
+ },
+ "clean_4": {
+  "clean_name": "All windows",
+  "tools": "Usual",
+  "price": "60",
+  "clean_schedule": "1/08/2020",
+  "clean_schedule_repeat": "Every 2 Months",
+  "clean_description": "Clean all windows in and out",
+  "payment_method": "Payment Method: Cash",
+  "receipt": "Receipt: Yes",
+  "time_eta": "40",
+  "time_type_eta": "Minutes"
+ }
+}
