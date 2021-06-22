@@ -689,7 +689,7 @@ def search_database():
     search_results.set("Searching...")
 
     search_arguments_sort_temp = search_arguments_var.get()  # Does the user want to search for something specific?
-    search_arguments_temp = search_arguments_input_var.get()  # What is the actual variable being searched for?
+    search_arguments_temp = search_arguments_input_var.get().lower()  # What is the actual variable being searched for?
     if search_arguments_temp == "":
         print("Search Input is empty")
         search_results.set("Please Enter a Value!")
@@ -710,8 +710,8 @@ def search_database():
             unknown_id = 'job_num_' + str(unknown_id_num)
             print("Scanning " + unknown_id)
             try:
-                current_job_name = jobs[unknown_id]['job']['job_name']
-                if current_job_name == search_arguments_temp:
+                current_job_name = str(jobs[unknown_id]['job']['job_name'])
+                if search_arguments_temp in current_job_name.lower():
                     print("Found corresponding job id! " + unknown_id)
                     history_list_widget.insert(END, current_job_name)
                     found = True
