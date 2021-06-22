@@ -1,6 +1,11 @@
 # WCA-SAT
 🌊 Window Cleaning Assistant (WCA) This was an overly ambitious school project for my Software Development class in Year 12 (2020). A SAT is a School Assessed Task
 
+![image](https://user-images.githubusercontent.com/51737378/122884453-875a0e00-d381-11eb-9ab1-05bd811b4654.png)
+
+![image](https://user-images.githubusercontent.com/51737378/122885697-a86f2e80-d382-11eb-9781-ec23f19d1cc4.png)
+
+
 At the moment I am continuing to work on this project in other seperate private repo's, but I thought I would make this original version public so other students can learn a thing or two! The currently private project contains an IOS App, Apple watch app, client / server setup with database and a Desktop application to manage it all. I hope to eventually use this project in production in my own Window Cleaning business.
 
 Keep in mind this code was written while I was still learning programming fundamentals, so it's pretty terrible...
