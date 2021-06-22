@@ -15,5 +15,5 @@ In the login GUI, stay in offline mode, unless you have your own MQTT server you
 -
 -
 
-Thanks for checking this project out, credit to my awesome teacher Warren from BSSC for teaching my programming fundamentals in Python 😁
+Thanks for checking this project out, credit to my awesome teacher Warren from BSSC for teaching me programming fundamentals in Python 😁
   - Liam
