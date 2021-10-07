@@ -16,9 +16,6 @@ To run this code, simply open PyCharm, clone this repo, initialize your virtual 
 
 In the login GUI, stay in offline mode, unless you have your own MQTT server you can connect to, then type in class as the password and hit enter on your keyboard.
 
--
--
--
 
-Thanks for checking this project out, credit to my awesome teacher Warren from BSSC for teaching me programming fundamentals in Python 😁
-  - Liam
+
+###### Thanks for checking this project out. Credit to my awesome teacher Warren from BSSC for teaching me programming fundamentals in Python.
